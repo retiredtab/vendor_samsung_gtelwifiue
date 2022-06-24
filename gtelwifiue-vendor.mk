@@ -19,6 +19,7 @@
 #    vendor/samsung/gtelwifiue/proprietary/lib/hw/sensors.msm8916.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.msm8916.so \
 
 PRODUCT_COPY_FILES += \
+    vendor/samsung/gtelwifiue/proprietary/vendor/lib/libbtnv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbtnv.so \
     vendor/samsung/gtelwifiue/proprietary/etc/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/Bluetooth_cal.acdb \
     vendor/samsung/gtelwifiue/proprietary/etc/General_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/General_cal.acdb \
     vendor/samsung/gtelwifiue/proprietary/etc/Global_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/Global_cal.acdb \
